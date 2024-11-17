@@ -1,0 +1,136 @@
+.card {
+  background-color: #fff;
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  padding-top: 32px;
+  display: flex;
+}
+
+.card__image {
+  width: 160px;
+  height: 134px;
+  display: block;
+}
+
+.card__title-wrapper {
+  text-align: left;
+  margin-top: 40px;
+}
+
+.card__title {
+  color: #060b35;
+  margin: 0 16px 4px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.card__subtitle {
+  color: #616070;
+  text-align: left;
+  margin: 4px 16px 16px;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.card__buybtn {
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  background-color: #00acdc;
+  border: 1px solid #0000;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% - 34px);
+  height: 40px;
+  margin-top: 16px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-decoration: none;
+  display: flex;
+}
+
+.card__buybtn:hover {
+  color: #00acdc;
+  background-color: #fff;
+  border-color: #00acdc;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+}
+
+.card__rating {
+  justify-content: space-between;
+  align-items: center;
+  gap: 4px;
+  width: 100%;
+  padding: 0 16px;
+  display: flex;
+}
+
+.card__rating .stars {
+  gap: 4px;
+  display: flex;
+}
+
+.card__rating .stars__star {
+  background-image: url("star.fa806e3c.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+}
+
+.card__rating .stars--4 .stars__star:nth-child(-n+4) {
+  background-image: url("star-active.2be54011.svg");
+}
+
+.card__rating .card__reviews {
+  color: #060b35;
+  margin-top: 2px;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.price {
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 32px);
+  margin-top: 24px;
+  line-height: 18px;
+  display: flex;
+}
+
+.price__title {
+  color: #616070;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.price__amount {
+  color: #060b35;
+  font-size: 16px;
+  font-weight: 700;
+}
+/*# sourceMappingURL=index.e378193d.css.map */
